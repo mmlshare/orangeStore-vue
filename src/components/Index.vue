@@ -1,12 +1,12 @@
 <template>
-<div class="main">
+<div class="index">
     <h1>{{ msg }}</h1>
 </div>
 </template>
 
 <script>
 export default {
-    name: 'main',
+    name: 'index',
     props: {
         msg: String
     }
